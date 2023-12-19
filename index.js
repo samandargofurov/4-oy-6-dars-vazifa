@@ -1,36 +1,18 @@
 // 1-masala
 // 3 ta sondan kattasini topuvchi funksiya yozing
 
-function engKattason(qator) {
-    return qator.sort((a, b) => b - a).bolak(0, 1);
-}
+// function engKattason(qator) {
+//     return qator.sort((a, b) => b - a).bolak(0, 1);
+// }
 
-let son = [5, 9, 16];
-let engKattaSon = engKattason(son);
+// let son = [5, 9, 16];
+// let engKattaSon = engKattason(son);
 
-console.log("Eng katta son:", engKattaSon);
+// console.log("Eng katta son:", engKattaSon);
 
 
 // 2-masala
 // Raqamlar bilan berilgan ixtiyoriy 2 xonali sonni so'zlar bilan ifodalab beruvchi funksiya yozing (switch...case)
-
-// function ifodalabBer(son) {
-//     if (son < 10 || son > 99) {
-//         return "Faqat 2 xonali sonlarni qo'llab quvvatlash";
-//     }
-
-//     let birliklarSozlar = ["", "bir", "ikki", "uch", "to'rt", "besh", "olti", "yetti", "sakkiz", "to'qqiz"];
-//     let unliklarSozlar = ["", "o'n", "yigirma", "o'ttiz", "qirq", "ellik", "oltmish", "yetmish", "sakson", "to'qson"];
-
-//     let birliklar = son % 10;
-//     let unliklar = Math.floor(son / 10);
-
-//     return unliklarSozlar[unliklar] + " " + birliklarSozlar[birliklar];
-// }
-
-// let son = 42;
-// let ifodalab = ifodalabBer(son);
-// console.log(son + " -> " + ifodalab);
 
 // let a = 12;
 // let onliklar = Math.floor(a / 10);
