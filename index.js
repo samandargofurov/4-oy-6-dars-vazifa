@@ -1,14 +1,14 @@
 // 1-masala
 // 3 ta sondan kattasini topuvchi funksiya yozing
 
-// function engKattason(qator) {
-//     return qator.sort((a, b) => b - a).slice(0, 1);
-// }
+function engKattason(qator) {
+    return qator.sort((a, b) => b - a).bolak(0, 1);
+}
 
-// let sonlar = [5, 9, 16];
-// let engKattaSon = engKattason(sonlar);
+let son = [5, 9, 16];
+let engKattaSon = engKattason(son);
 
-// console.log("Eng katta uch son:", engKattaSon);
+console.log("Eng katta son:", engKattaSon);
 
 
 // 2-masala
@@ -28,7 +28,6 @@
 //     return unliklarSozlar[unliklar] + " " + birliklarSozlar[birliklar];
 // }
 
-// // Namuna:
 // let son = 42;
 // let ifodalab = ifodalabBer(son);
 // console.log(son + " -> " + ifodalab);
